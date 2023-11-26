@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição para vagas nos centros de educação infantil</title>
+
+    <style>
+
+        body {
+            margin: 80px;
+        }
+
+        .cabecalho {
+          flex-wrap: wrap;
+          display: flex;
+          flex: 1;  
+          justify-content: space-between;
+          text-align: center;
+        }
+
+        .textos {
+            text-align:  center;
+        }
+       
+        .div_input {
+            flex-wrap: wrap;
+            display: flex;
+            flex: 1;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="cabecalho">
+        <img src="Logo-Terra-Roxa-01-Horizontal-Preta.png" width="300" height="150">
+        <div class="textos">
+            <h3>MUNICÍPIO DE TERRA ROXA - PR</h3>
+            <p>www.terraroxa.pr.gov.br</p&gt;</p>
+            <p>Av. Presidente Costa e Silva, 95</p>
+            <p>CEP: 85990-000</p>
+            <p>TEL.: (44) 3645-8300</p>
+        </div>
+    </div>
+
+    <h1 class="textos">INSCRIÇÃO PARA VAGAS NOS CENTROS DE EDUCAÇÃO INFANTIL</h1>
+    <form>
+        <div class="div_input">
+            <label style="flex: 1;">Nome da criança:</label>
+            <input style="flex: 6;"type="text">
+        </div>
+     
+        <div class="div_input">
+            <label style="flex: 1;">Data de nascimento</label>
+            <input style="flex: 2;" type="date">
+            <label style="flex: 1;">Série</label>
+            <select>
+                  <option value="BI">Berçário I</option>
+                  <option value="BII">Berçário II</option>
+                  <option value="Maternal I">Maternal I</option>
+                  <option value="Maternal II">Maternal II</option>
+                  <option value="Infantil 4">Infantil 4</option>
+            </select>
+        </div>
+     
+        <h1 class="titulo">FILIAÇÃO</h1>
+        <div class="div_input">
+            <label style="flex: 1;">Mãe:</label>
+            <input style="flex: 6;" type="text"/>
+        </div>
+
+      <div class="div_input">
+        <label style="flex: 1;">Pai:</label>
+        <input style="flex: 6;" type="text"/>
+      </div>
+     
+        <div class="div_input">      
+            <label style="flex: 1;">Endereço:</label>
+            <input style="flex: 1;"type="text"/>
+
+            <label style="flex: 1;">Número:</label>
+            <input style="flex: 1;"type="number"/>
+            
+            <label style="flex: 1;">Bairro:</label>
+            <input style="flex: 1;" type="text"/>
+        </div>
+
+        <div class="div_input">
+            <label style="flex: 1;">Telefone para contato:</label>
+            <input style="flex: 1;" type="text"/>
+            <label style="flex: 1;">ou</label>
+            <input style="flex: 1;"type="number"/>
+        </div>
+
+      <div class="div_input">
+        <label>Local de trabalho do pai:</label>
+        <input type="text"/>
+        <label>Fone:</label>
+        <input type="number"/>
+      </div>
+
+      <div class="div_input">
+        <label>Local de trabalho da mãe:</label>
+        <input type="text"/>
+        <label>Fone:</label>
+        <input type="text"/>
+      </div>
+
+       <div class="div_input">
+        <label>C.M.E.I mais próximo a residência:</label>
+        <input type="text"/>
+        <label>Período:</label>
+        <input type="text"/>
+       </div>
+
+       <div class="div_input">
+        <label>Data do fichamento:</label>
+        <input type="datetime"/>
+        <label>Fone:</label>
+        <input type="number"/>
+       </div>
+
+       <div class="div_input">
+        <label>Pessoa responsável pela Inscrição:</label>
+        <input type="text"/>
+        <label>Fone:</label>
+        <input type="number"/>
+       </div>
+       <div>
+        <label>Assinatura:</label>
+        <p>________________________________________________________</p>
+       </div>
+       <button class="submit" type="submit"value="imprimir" onclick="print();"document></button>
+       
+    </form>
+
+   
+</body>
+</html>
